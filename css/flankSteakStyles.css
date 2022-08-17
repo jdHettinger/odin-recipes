@@ -1,4 +1,52 @@
-.steak{
-    height: 200px;
-    width: 200px;
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+}
+#steakContainer{
+    border: 4px solid #378679;
+    display: inline-flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+#flankBox{
+    position: relative;
+    background-color: darkgray;
+    width: auto;
+    border-radius: 2rem;
+    padding: 1rem;
+    z-index: 2;
+    opacity: 0.8;
+    margin-left: auto;
+}
+
+#instructions{
+    border-top: 4px solid black;
+    border-radius: 6px;
+    padding-left: 2%;
+    z-index: 2;
+    align-items: stretch;
+}
+
+#header{
+    text-align: center;
+}
+
+.background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: lightcoral;
+    z-index: -1;
+}
+
+#content{
+    width: 100%;
+    height: 100%;
+    image-rendering: optimizeQuality;
 }
