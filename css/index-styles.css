@@ -20,7 +20,8 @@
     justify-content: center;
     background-color: rgba(57, 68, 68, 0.5);
     border-radius: 8px;
-    flex:auto;
+    margin-top: 50px;
+    padding: 10px;
 }
 
 .headertext{
@@ -41,10 +42,12 @@
     width: 25%;
     height: 500px;
     box-sizing: border-box;
-    margin:10px;
+    margin: 10px 25px;
     border: 2px solid ghostwhite;
     background-color: rgba(188, 226, 226, 0.76);
     text-align: center;
+    border-radius: 8px;
+    display: grid;
 }
 
 .rbox > p{
@@ -54,5 +57,10 @@
 }
 
 .rbox > a{
-    
+    justify-self: center;
+}
+
+.rbox:hover{
+    transform: scale(1.15);
+    box-shadow: 10px 5px 5px palevioletred;
 }
