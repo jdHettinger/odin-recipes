@@ -1,0 +1,22 @@
+.bgimage{
+    background-image: url('../images/chicken.jpg');
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: 0;
+}
+
+.menu{
+    width: 75%;
+    z-index: 1;
+    background-color: rgba(230, 192, 90, 0.603);
+    position: relative;
+    margin: auto;
+    padding: 10px;
+}

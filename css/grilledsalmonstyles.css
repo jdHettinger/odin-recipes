@@ -1,0 +1,49 @@
+.bgimage{
+    background-image: url('../images/grilledsalmon.jpg');
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: 0;
+}
+
+.menu{
+    width:50%;
+    height: auto;
+    background-color: rgba(192, 158, 65, 0.751);
+    border-radius: 10px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header{
+    margin-top: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+hr{
+    border: none;
+    border-top: 3px double #333;
+    border-radius: 2px;
+    width: 95%;
+    color: #333;
+    text-align: center;
+    height: 5px;
+}
+
+ol, li{
+    margin: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+    justify-content: center;
+}
